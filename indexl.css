@@ -1,0 +1,44 @@
+
+.converter{
+    display: grid;
+    width: 50%;
+
+}
+
+.input-group {
+display: flex;
+gap: 10px;
+margin-bottom: 1rem;
+}
+
+
+input, select {
+padding: 0.5rem;
+border-radius: 8px;
+border: 1px solid #ccc;
+flex: 1;
+}
+
+
+button {
+background-color: #5563DE;
+color: white;
+border: none;
+padding: 0.7rem 1.5rem;
+border-radius: 10px;
+cursor: pointer;
+transition: background 0.3s ease;
+}
+
+
+button:hover {
+background-color: #3741A0;
+}
+
+
+.result {
+margin-top: 1rem;
+font-size: 1.2rem;
+color: #333;
+font-weight: 500;
+}
